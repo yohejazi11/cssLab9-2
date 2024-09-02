@@ -53,6 +53,7 @@
     background-color: white;
 }
 
+
 .circle{
     position: absolute;
     right: 20px;
@@ -66,12 +67,13 @@
 .first-section{
     background-color: #0e0e0e;
     padding-top: 100px;
-    height: 350vh;
+    height: 310vh;
     z-index: 1;
 
 }
 
 .title{
+    position: relative;
     margin: 0;
     color: white;
     text-align: center;
@@ -120,12 +122,19 @@
     color: white;
     font-size: 20px;
 }
+
+.samll{
+    height: 20%;
+}
 .second-section{
     display: flex;
     justify-content: space-evenly;
     height: 90vh;
 }
-
+.last-row{
+    display: flex;
+    
+}
 .bottom-image-container{
     display: flex;
     align-items: center;
@@ -195,4 +204,9 @@
     border-radius: 5px;
 }
 
-
+footer{
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+    align-content: center;
+}
